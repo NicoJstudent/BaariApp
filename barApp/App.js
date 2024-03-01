@@ -7,7 +7,7 @@ import styles from './styles';
 
 export default function App() {
   return (
-    <NavigationContainer>
+    <NavigationContainer style={styles.navBar}>
       <StackNavigator />
     </NavigationContainer>
   );

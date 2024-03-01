@@ -14,23 +14,23 @@ const SubmitDrinkScreen = ({ navigation }) => {
     }
   return (
     <View style={styles.container}>
-    <Text>Submit Drink Screen</Text>
-    <View style={styles.formItem}>
-      <Text>Drinkin nimi:</Text>
+    <Text style={styles.h1}>Submit new cockai</Text>
+    <View style={styles.formText}>
+      <Text style={styles.inputHeader}>Cocktail name</Text>
       <TextInput
-        style={styles.input}
+        style={styles.formName}
         value={name}
         onChangeText={text => setName(text)}
         placeholder="..."
       />
     </View>
-    <View style={styles.formRecipe}>
-      <Text>Drinkin resepti:</Text>
+    <View style={styles.formText} >
+      <Text style={styles.inputHeader}>Cocktail recipe</Text>
       <TextInput
-        style={[styles.input, { height: 50, width: 300}]}
+        style={styles.textbox}
         value={newRecipe}
         onChangeText={text => setNewRecipe(text)}
-        placeholder="Kirjoita resepti tähän..."
+        placeholder="Recipe:"
         multiline={true}
       />
     </View>
