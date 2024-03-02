@@ -15,7 +15,7 @@ BarApp is a mobile application designed to help users explore and contribute to 
 2. **Install dependencies:** Navigate to the downloaded/cloned directory in your terminal and run the following command to install the required dependencies:
     ```sh
     npm install
-3. **Firebase configurations:** Please fill in the following Firebase configuration details in the `firebase/Config.js`
+3. **Firebase configurations:** Fill in the following Firebase configuration details in the `firebase/Config.js`
 
     ```javascript
        const firebaseConfig = {
