@@ -4,7 +4,7 @@ import Constants from 'expo-constants';
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#8e7cc3',
+        backgroundColor: '#57384e',
         alignItems: 'center',
         justifyContent: 'flex-start',
         paddingHorizontal: '5%',
@@ -21,8 +21,8 @@ const styles = StyleSheet.create({
         width: '100%',
     },
     button: {
-        margin: 10,
-        paddingBottom: 10,
+        default: "#e91e63",
+        hover: "#ad1457",
     },
     text: {
         color: '#fff',
@@ -68,6 +68,21 @@ const styles = StyleSheet.create({
         fontStyle: 'bold',
         textAlign: 'center',
         paddingBottom: '5%',
+    },
+    recipeBox: {
+        padding: 10,
+        marginTop: 10,
+        marginBottom: 10,
+        backgroundColor: '#faa2e1',
+        borderColor: '#ccc',
+        borderWidth: 1,
+        borderRadius: 5,
+        marginLeft: 10,
+        marginRight: 10
+      },
+    recipeNameInfo: {
+        fontSize: 18,
+        fontWeight: 'bold',
     },
 });
 

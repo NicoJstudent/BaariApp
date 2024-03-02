@@ -5,7 +5,12 @@ import { getFirestore, collection, addDoc } from 'firebase/firestore';
 //dotenv.config();
 
 const firebaseConfig = {
-
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 

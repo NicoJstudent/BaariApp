@@ -26,7 +26,7 @@ const SubmitDrinkScreen = ({ navigation }) => {
           style={styles.formName}
           value={name}
           onChangeText={text => setName(text)}
-          placeholder="..."
+          placeholder=" "
         />
       </View>
       <View style={styles.formText} >
@@ -35,11 +35,11 @@ const SubmitDrinkScreen = ({ navigation }) => {
           style={styles.textbox}
           value={newRecipe}
           onChangeText={text => setNewRecipe(text)}
-          placeholder="Recipe:"
+          placeholder=" "
           multiline={true}
         />
       </View>
-      <Button style={styles.button} title="Submit" onPress={handleSubmit} />
+      <Button color="#f542c2" title="Submit" onPress={handleSubmit} />
     </View>
   );
 };
